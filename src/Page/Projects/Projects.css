@@ -182,9 +182,7 @@ strong{
 }
 
 .click-order{
-    position: absolute;
     z-index: 1;
-    top: 5%;
     font-size: 8px;
     color: gray
 }

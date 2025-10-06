@@ -1,14 +1,20 @@
 /*NAV BAR=============================================*/
 
 nav{
+    background: white !important;
     position: sticky;
     background-color: white;
     width:100%;
-    height: fit-content;
+    height: 4rem;
     padding:0.5rem 0rem;
     top:0%;
-    z-index: 1;
+    z-index: 100;
     margin-bottom:10px;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    ul{
+      margin:0 !important;
+    }
   }
   
   .switch-cont{
@@ -83,12 +89,13 @@ nav{
 
 footer{
   position: fixed;
+  background:green;
+    margin-top: 10rem;
   bottom: 0px;
 
 }
 .footer{
     width:100%;
-    padding: 2rem 0rem 2rem 0rem;
     transition: 01s ease-in-out;
   }
   

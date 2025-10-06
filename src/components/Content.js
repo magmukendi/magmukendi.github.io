@@ -30,7 +30,6 @@ function Navbar(){
     </div> */}
             <ul style={{display:'flex', flexDirection:'column'}}>
                     <img style={{marginTop:"1rem", maxHeight:"20px",width:"auto"}} className = "anchor" src={logo}/>
-                    <hr/>
                 {/*
                 <NavElement 
                     name= "HOME"
