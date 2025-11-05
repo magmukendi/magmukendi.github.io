@@ -58,7 +58,7 @@ nav{
   
   nav ul{
     margin: auto;
-    width: 360px;
+    width: 100%;
     padding: 0px;
     display: flex;
     flex-direction: row;
@@ -89,7 +89,6 @@ nav{
 
 footer{
   position: fixed;
-  background:green;
     margin-top: 10rem;
   bottom: 0px;
 
