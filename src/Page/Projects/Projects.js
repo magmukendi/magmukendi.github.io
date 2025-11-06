@@ -29,7 +29,7 @@ function ProjectElement(props){
     let techS = props.tech.map(item =><li key={props.tech.indexOf(item)}>{item}</li>)
 
     return(
-            <div   className='project-element-child'>
+            <div   className='project-element-child' onClick={toggleDisplay}>
               {display && (
 
                 <div className="display-project" id="display-container">
@@ -38,7 +38,7 @@ function ProjectElement(props){
                     <button className='close-project' onClick={toggleDisplay} >close</button>
 
                   <div className='project-content'>
-                    <h3 className='project-tt'>{props.name}</h3>
+                    <p className='project-tt'>{props.name}</p>
                     <img alt={props.illust} className='project-image' src={props.illust}></img>
                     <p>{props.description}</p>
                       <p>
@@ -58,9 +58,9 @@ function ProjectElement(props){
 
               </div>
 )}
-              <h5 className="project-title">{props.name}</h5>
+              <p className="project-title">{props.name}</p>
               <p>{props.description}</p>
-              <p onClick={toggleDisplay} ><strong>MORE DETAILS</strong></p>
+              <p ><strong>MORE DETAILS</strong></p>
             </div>
     )
 } 

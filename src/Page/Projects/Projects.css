@@ -32,13 +32,18 @@
 .project-element-child{
   grid-template-rows: subgrid;
   display: grid;
-  height: 300px;
-  width:320px;
+  width:620px;
   border: 1px solid black;
-  padding: 20px;
   grid-template-rows: auto;
   grid-template-columns: subgrid;
   justify-items: center;
+  scroll-snap-align:center;
+  height: 600px;
+  place-items: center;
+  p{
+    font-size: 20px;
+    width:80%;
+  }
 }
 
 
@@ -47,23 +52,29 @@
   padding: 3rem 0rem 3rem 0rem;
   /*border: 1px solid var(--dark);*/
   transition: 01s ease-in-out;
-  ;
 }
 .project-container{
-  padding: 2rem;
-  padding-bottom: 0px;
-  transition: 01s ease-in-out;
   display: grid;
-  grid-template-columns: repeat(auto-fit,320px);
+  grid-template-columns: repeat(auto-fit,500px);
   gap:1rem;
   align-items: center;
   justify-items: center;
   justify-content: center;
   width:60%;
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  height: 75vh;
+  padding: 2rem 0rem 5rem 0rem;
+}
+.project-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
 .project-element-child:hover{
-  background: rgb(245,245,245);
+  background: rgb(216, 216, 216);
   border: 2px solid black;
+  cursor:pointer;
 }
 .lili{
   text-decoration: none;
@@ -74,9 +85,7 @@
 }
 .project-container .light{
   color:var(--dark);
-  transition: 01s ease-in-out;
   background-color: transparent;
-  transition: 01s ease-in-out;
 }
 
 .project-container .dark{
@@ -137,9 +146,6 @@
 
 
 
-strong{
-  cursor: pointer;
-}
 
 .close-project:hover{
   background-color: black;
@@ -183,7 +189,6 @@ strong{
 
 .click-order{
     z-index: 1;
-    font-size: 8px;
     color: gray
 }
 
