@@ -20,10 +20,10 @@ jobs:
     - name: Install Dependencies
       run: npm install
     - name: Deploy to GH Pages
-      run:  |
-        git config --global user.name $user_name
-        git config --global user.email $user_email
-        git remote set-url origin https://${github_token}@github.com/${repository} 
+      run: |
+        git config --global user.name "${user_name}"
+        git config --global user.email "${user_email}"
+        git remote set-url origin https://${github_token}@github.com/${repository}
     - name: Add CNAME for custom domain
       run: |
         echo "magmukendi.com" > build/CNAME
