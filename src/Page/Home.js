@@ -21,14 +21,17 @@ function Home() {
                 <a rel="noreferrer"  target="_blank" href="https://1l1.link">1l1: un lien</a>
               </li>
               <li>
-                <a rel="noreferrer"  target="_blank" href="https://qouple.com">qouple</a>
+                <a rel="noreferrer"  target="_blank" href="https://qouple.magmukendi.com">qouple</a>
+              </li>
+              <li>
+                 <a rel="noreferrer"  target="_blank" href="https://mobembo.cc">mobembo</a>
               </li>
               <li>
                  <a rel="noreferrer"  target="_blank" href="https://wepo.cc">wepo</a>
               </li>
               </ul>
-          <p><br/>Check out my blog, <a rel="noreferrer"  target="_blank" href="https://blog.magmukendi.com"><i>Le Coin Tech de Mag</i></a></p>
-          <p style={{textAlign:'center'}}> <br/><br/><br/>Ha P to C U Here</p>
+          <p className='blog-link'><br/>Check out my blog, <a rel="noreferrer"  target="_blank" href="https://blog.magmukendi.com"><i><b>Le Coin Tech de Mag</b></i></a></p>
+          <p style={{textAlign:'center'}}> <br/>Ha P to C U Here</p>
 
         
         </div>

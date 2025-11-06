@@ -29,7 +29,9 @@ function Navbar(){
                 <p style={{color:"#051A36"}}>Dark</p>
     </div> */}
             <ul style={{display:'flex', flexDirection:'column'}}>
-                    <img style={{marginTop:"1rem", maxHeight:"20px",width:"auto"}} className = "anchor" src={logo}/>
+                    <a href='/'>
+                        <img style={{marginTop:"1rem", maxHeight:"20px",width:"auto"}} className = "anchor" src={logo}/>
+                    </a>
                 {/*
                 <NavElement 
                     name= "HOME"
