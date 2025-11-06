@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b500ec03.css",
-    "main.js": "/static/js/main.90884946.js",
+    "main.css": "/static/css/main.80c8462b.css",
+    "main.js": "/static/js/main.c7e1c696.js",
     "static/js/787.1412fa7b.chunk.js": "/static/js/787.1412fa7b.chunk.js",
     "static/media/portfolio.jpg": "/static/media/portfolio.57f7d80fd8b4343b8f74.jpg",
     "static/media/my_text.png": "/static/media/my_text.f8b1c16fad3fc5126591.png",
@@ -9,12 +9,12 @@
     "static/media/precolonialBlackAfrica.jpg": "/static/media/precolonialBlackAfrica.3c21a73fa8131cd4149a.jpg",
     "static/media/logo mag 3.png": "/static/media/logo mag 3.d002d63718ce0256723d.png",
     "index.html": "/index.html",
-    "main.b500ec03.css.map": "/static/css/main.b500ec03.css.map",
-    "main.90884946.js.map": "/static/js/main.90884946.js.map",
+    "main.80c8462b.css.map": "/static/css/main.80c8462b.css.map",
+    "main.c7e1c696.js.map": "/static/js/main.c7e1c696.js.map",
     "787.1412fa7b.chunk.js.map": "/static/js/787.1412fa7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b500ec03.css",
-    "static/js/main.90884946.js"
+    "static/css/main.80c8462b.css",
+    "static/js/main.c7e1c696.js"
   ]
 }
