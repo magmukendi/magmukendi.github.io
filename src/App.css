@@ -108,6 +108,16 @@ body{
 }
 /*PUBLICATION */
 
+.publication-container{
+  margin-bottom: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  background-color: white;
+  box-sizing: border-box;
+}
 .publication{
   margin: auto;
   width: 100%;
@@ -118,19 +128,18 @@ body{
   background-color: white;
 }
 .translation{
-  padding: 3vh 8vw 3vh 8vw;
   text-align: justify;
   width: 100%;
 
 }
 #racism{
-  margin: 0vh 0vw 4vh 0vw;
+  margin: 0;
   font-size: 2rem;
   text-align: center;
 }
 
 .publication p{
-  font-size: 0.8rem;
+  font-size: 20px;
 }
 .publication img{
 

@@ -3,14 +3,14 @@ import mytext from "../assets/img/my_text.png"
 
 export default function Publication(){
     return(
-    <div>
+    <div className="publication-container">
         <div className = "publication pd-t">
             <img id="title"src={title} alt=""/>
             <img id="mytext" src={mytext} alt=""/>
         </div>
 
         <div className="publication translation">
-            <h6 style={{ fontSize: "1vh"}}> ( English translation )</h6>
+            <h3> ( English translation )</h3>
             <h3 id="racism">
             <b>“ Racisms are all disgusting! ”</b>
             </h3>
@@ -31,7 +31,7 @@ export default function Publication(){
                 Even though some of us might say that the high school students did it for fun, that they did it thinking about today’s generation, and history is in the past and we cannot change much of it, let's think twice, none of us, African, Asian, or no matter what our ethnicity is, would like to be made fun of while going through hell. Every time there is a blackface representation, it recalls slavery, the mistreatments, and all the mockeries that the black community had to experience.
             </p>
             <p>It was slavery, now what? While growing up, I’ve always been taught by my mother that our intentions when we act upon something are as much important as the effects of our actions on the people surrounding us. If we really care about getting rid of racisms, good motives are not enough, justifying our actions with good intentions only is not the best way to overcome the dormant resentment that subsists deep inside of our collective memory. If we really care about outliving racisms, we have the duty to care about the consequences of our actions on people as well. Isn’t putting to put ourselves in someone else’s shoes the golden rule? I am sure that if the students had to see things from that perspective it wouldn't have been that fun for them.  If I was asked how to end racism, I would say that yet "I am not sure how long is the road to end racism, believe me, goodwill and empathy will help us make a giant leap forward ".</p>
-            <p> <em>This publication can also be found at the <a style={{textDecoration:"none", color:"blue"}} href="http://www.hufs.or.kr/online/3373624">HUFS Alumni Association Newspaper (157)</a> published on Sept. 17th 2020.</em></p>
+            <p> <em>This publication can also be found at the <a style={{textDecoration:"none", color:"blue"}} target="_blank" href="http://www.hufs.or.kr/online/3373624">HUFS Alumni Association Newspaper (157)</a> published on Sept. 17th 2020.</em></p>
         </div>
     </div>
     )
